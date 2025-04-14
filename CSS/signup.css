@@ -1,0 +1,109 @@
+body {
+  background-color: #3ebfbb;
+}
+
+.container {
+  background-color: #3ebfbb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #505050;
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px black;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top, img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+.Welcome {
+  font-family: nunito;
+  color: white;
+  font-size: 30px;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid input {
+  margin-top: 15px;
+  width: 200px;
+  height: 25px;
+  border-radius: 6px;
+  border: none;
+}
+
+.mid input::placeholder {
+  padding-left: 7px;
+  font-family: nunito;
+  font-weight: 700;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.password a {
+  color: white;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom input {
+  width: 100px;
+  height: 25px;
+  border-radius: 50px;
+  margin-top: -60px;
+  font-family: nunito;
+  font-weight: 700;
+  transition: 0.1s ease-in-out;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.bottom input:hover {
+  transform: scale(1.05);
+}
+
+.bottom input:active {
+  transform: scale(1.03);
+}
+
+.bottom p {
+  color: white;
+  font-family: arial;
+}
+
+.bottom a {
+  color: white;
+  font-style: italic;
+}
