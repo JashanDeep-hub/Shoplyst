@@ -1,45 +1,18 @@
 body {
     background-image: url(freepik__enhance__28847.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 main {
   margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-between;  
-  margin-right: 15px;
+  justify-content: space-between;
   margin-left: 15px;
   gap: 30px;
 }
 
-@media (min-width: 1920px) {
-  main {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-}
-
-@media (max-width: 1000px) {
-  main {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-}
-
-@media (max-width: 600px) {
-  main {
-    grid-template-columns: 1fr 1fr;
-}
-}
-
-@media (max-width: 450px) {
-  main {
-    grid-template-columns: 1fr;
-}
-}
-
-
 .container {
+  flex-wrap: wrap;
   display: flex;
   background-color: rgb(0, 189, 189);
   width: 250px;
@@ -235,4 +208,32 @@ span {
 .cart:hover {
   background-color: rgb(185, 185, 0);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (min-width: 1920px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
+
+@media (max-width: 1000px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media (max-width: 600px) {
+  main {
+    margin-top: 120px;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 450px) {
+  main {
+    margin-left: 15%;
+    margin-top: 120px;
+    grid-template-columns: 1fr;
+}
 }

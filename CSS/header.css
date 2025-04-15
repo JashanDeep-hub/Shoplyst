@@ -43,12 +43,11 @@ header {
 
 .search {
   flex: 1;
-  width: 300px;
   height: 25px;
   border-radius: 50px;
   border: none;
   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.897);
-  width: 0;
+  width: 100%;
   padding-left: 15px;
 }
 
@@ -74,4 +73,52 @@ header {
   border: none;
   margin-left: 20px;
   margin-right: 10px;
+}
+
+.sign-img {
+  height: 30px;
+  margin-bottom: -5px;
+  margin-left: -px;
+}
+
+
+@media (max-width: 800px) {
+  .middle-section {
+    display: none; /* hide search bar on smaller screens */
+  }
+
+  .logo-name {
+    font-size: 18px; /* shrink logo name font */
+  }
+
+  .right-section a {
+    font-size: 13px;
+  }
+
+  .sign-img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .right-section {
+    gap: 10px;
+    margin-left: 5px;
+  }
+
+  .right-section a {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 5px 10px;
+  }
+
+  .left-section {
+    margin-bottom: 5px;
+  }
 }
