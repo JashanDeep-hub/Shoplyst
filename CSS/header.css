@@ -1,0 +1,134 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(3,5,44,255);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  height: 50px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.logo-name {
+  font-family: nunito;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  margin-left: 8px;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: -10px;
+}
+
+.search {
+  flex: 1;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.897);
+  width: 100%;
+  padding-left: 15px;
+}
+
+.search::placeholder {
+  font-family: arial;
+  font-size: 15px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section, a {
+  color: white;
+  text-decoration: none;
+  font-family: nunito;
+  font-size: 15px;
+}
+
+.right-section, button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.sign-img {
+  height: 30px;
+  margin-bottom: -5px;
+  margin-left: -px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .middle-section {
+   width: 100px;
+  }
+
+  .right-section a {
+    font-size: 13px;
+  }
+
+  .sign-img {
+    height: 24px;
+    margin-left: -10px;
+  }
+
+  .home-button {
+    margin-right: 3px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .logo-name {
+    display: none;
+  }
+
+  .middle-section {
+    margin-left: 18px;
+  }
+
+  .right-section {
+    margin-left: 5px;
+  }
+
+  .right-section a {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .sign-img {
+    height: 24px;
+    margin-left: -25px;
+  }
+
+  .home-button {
+    margin-right: -10px;
+  }
+
+}
+

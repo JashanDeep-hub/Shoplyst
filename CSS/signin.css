@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3ebfbb;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  background-color: #3ebfbb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #505050;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px black;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.top img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+.Welcome {
+  color: white;
+  font-size: 2rem;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mid input {
+  margin-top: 15px;
+  width: 90%;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  padding-left: 10px;
+  font-weight: 700;
+}
+
+.mid input::placeholder {
+  font-weight: 700;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  margin-top: 5px;
+  margin-left: 24px;
+}
+
+.password a {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.bottom input {
+  width: 50%;
+  max-width: 120px;
+  height: 35px;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  margin-top: -50px;
+}
+
+.bottom input:hover {
+  transform: scale(1.05);
+}
+
+.bottom input:active {
+  transform: scale(1.03);
+}
+
+.bottom p {
+  margin-top: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bottom a {
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .Welcome {
+    font-size: 1.5rem;
+  }
+
+  .bottom input {
+    width: 70%;
+    height: 30px;
+  }
+
+  .mid input {
+    height: 30px;
+  }
+
+  .bottom p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+}
