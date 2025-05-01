@@ -143,7 +143,7 @@ body {
 
   .password {
     width: 100%;
-    margin-left: 20px;
+    margin-left: 6%;
   }
 
   .bottom input {
@@ -158,5 +158,11 @@ body {
   .bottom p {
     margin-top: 30px;
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .password {
+    margin-left: 10px;
   }
 }

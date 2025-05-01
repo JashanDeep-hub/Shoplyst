@@ -140,7 +140,7 @@ body {
   }
 
   .password {
-    margin-left: 20px;
+    margin-left: 19px;
   }
   
   .bottom input {
@@ -150,4 +150,10 @@ body {
   .mid input {
     height: 30px;
   }
+
+  .bottom p {
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+  
 }
