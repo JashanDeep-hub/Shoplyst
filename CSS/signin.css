@@ -137,6 +137,10 @@ body {
     font-size: 1.5rem;
   }
 
+  .box {
+    transform: scale(2);
+  }
+
   .bottom input {
     width: 70%;
     height: 30px;
