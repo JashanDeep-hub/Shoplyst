@@ -1,3 +1,7 @@
+body {
+  background-color:rgba(18, 79, 121, 0.226);
+  
+}
 
 .welcome-div {
   margin-top: 50px;
@@ -14,6 +18,8 @@ h1 {
   font-family: nunito;
   font-size: 80px;
   font-weight: 700;
+  text-shadow: 1px 1px 5px rgb(90, 75, 223),
+    0 1px 30px rgba(26, 26, 156, 0.74)
 }
 
 h1 {
@@ -31,7 +37,7 @@ article {
 .container {
   flex-wrap: wrap;
   display: flex;
-  background-color: rgb(0, 189, 189);
+  background-color: #4436c03d;
   width: 250px;
   height: 300px;
   border-radius: 10px;
