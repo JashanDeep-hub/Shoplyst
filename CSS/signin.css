@@ -138,7 +138,7 @@ body {
   }
 
   .box {
-    transform: scale(2);
+    width: 80%;
   }
 
   .bottom input {
