@@ -142,6 +142,7 @@ body {
   }
 
   .password {
+    width: 100%;
     margin-left: 20px;
   }
 
