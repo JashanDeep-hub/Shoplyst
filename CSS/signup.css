@@ -78,15 +78,20 @@ body {
 .password {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
-  margin-left: 24px;
+}
+
+.password input {
+  width: 90%;
 }
 
 .password a {
   color: white;
   font-size: 0.9rem;
   margin-top: 5px;
+  align-self: flex-start;
+  margin-left: 5%;
 }
 
 .bottom {
@@ -138,10 +143,6 @@ body {
   .box {
     width: 300px;
   }
-
-  .password {
-    margin-left: 19px;
-  }
   
   .bottom input {
     width: 70%;
@@ -155,5 +156,4 @@ body {
     margin-top: 30px;
     font-size: 0.9rem;
   }
-  
 }
